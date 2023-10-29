@@ -1,10 +1,10 @@
-package com.masai.usecases;
+package com.RD.usecases;
 
 import java.util.Scanner;
 
-import com.masai.bean.Employee;
-import com.masai.checkdetails.Check;
-import com.masai.dao.AdminDaoImpl;
+import com.RD.bean.Employee;
+import com.RD.checkdetails.Check;
+import com.RD.dao.AdminDaoImpl;
 
 public class Addemployee {
 

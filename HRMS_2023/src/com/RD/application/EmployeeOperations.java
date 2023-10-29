@@ -1,9 +1,9 @@
-package com.masai.application;
-import com.masai.checkdetails.Check;
-import com.masai.usecases.ApplyForLeave;
-import com.masai.usecases.EmpViewProfile;
-import com.masai.usecases.ResponseFromAdmin;
-import com.masai.usecases.UpdateEmpProfile;
+package com.RD.application;
+import com.RD.checkdetails.Check;
+import com.RD.usecases.ApplyForLeave;
+import com.RD.usecases.EmpViewProfile;
+import com.RD.usecases.ResponseFromAdmin;
+import com.RD.usecases.UpdateEmpProfile;
 
 
 public class EmployeeOperations {

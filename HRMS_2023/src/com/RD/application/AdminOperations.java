@@ -1,14 +1,14 @@
-package com.masai.application;
-import com.masai.checkdetails.Check;
-import com.masai.usecases.AddDepartment;
-import com.masai.usecases.Addemployee;
-import com.masai.usecases.GetAllDepartments;
-import com.masai.usecases.GetAllEmployee;
-import com.masai.usecases.GetAllLeaves;
-import com.masai.usecases.LeaveRespond;
-import com.masai.usecases.TransferEmployee;
-import com.masai.usecases.UpdateAdminProfile;
-import com.masai.usecases.UpdateDepartment;
+package com.RD.application;
+import com.RD.checkdetails.Check;
+import com.RD.usecases.AddDepartment;
+import com.RD.usecases.Addemployee;
+import com.RD.usecases.GetAllDepartments;
+import com.RD.usecases.GetAllEmployee;
+import com.RD.usecases.GetAllLeaves;
+import com.RD.usecases.LeaveRespond;
+import com.RD.usecases.TransferEmployee;
+import com.RD.usecases.UpdateAdminProfile;
+import com.RD.usecases.UpdateDepartment;
 
 
 public class AdminOperations {

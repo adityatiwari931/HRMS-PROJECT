@@ -1,15 +1,15 @@
-package com.masai.dao;
+package com.RD.dao;
 
 import java.util.List;
 
-import com.masai.bean.Admin;
-import com.masai.bean.Department;
-import com.masai.bean.Employee;
-import com.masai.bean.Leave;
-import com.masai.exception.AdminException;
-import com.masai.exception.DepartmentException;
-import com.masai.exception.EmployeeException;
-import com.masai.exception.LeaveException;
+import com.RD.bean.Admin;
+import com.RD.bean.Department;
+import com.RD.bean.Employee;
+import com.RD.bean.Leave;
+import com.RD.exception.AdminException;
+import com.RD.exception.DepartmentException;
+import com.RD.exception.EmployeeException;
+import com.RD.exception.LeaveException;
 
 public interface AdminDao {
 

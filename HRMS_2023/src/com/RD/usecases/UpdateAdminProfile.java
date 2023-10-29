@@ -1,13 +1,13 @@
-package com.masai.usecases;
+package com.RD.usecases;
 
 import java.util.Scanner;
 
-import com.masai.application.AdminOperations;
-import com.masai.application.AdminOrEmployee;
-import com.masai.bean.Admin;
-import com.masai.checkdetails.Check;
-import com.masai.dao.AdminDaoImpl;
-import com.masai.exception.AdminException;
+import com.RD.application.AdminOperations;
+import com.RD.application.AdminOrEmployee;
+import com.RD.bean.Admin;
+import com.RD.checkdetails.Check;
+import com.RD.dao.AdminDaoImpl;
+import com.RD.exception.AdminException;
 
 public class UpdateAdminProfile {
 

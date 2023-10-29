@@ -1,4 +1,4 @@
-package com.masai.bean;
+package com.RD.bean;
 
 public class Department {
 

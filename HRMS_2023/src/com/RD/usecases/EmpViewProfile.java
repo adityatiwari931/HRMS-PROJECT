@@ -1,9 +1,9 @@
-package com.masai.usecases;
+package com.RD.usecases;
 
-import com.masai.bean.Employee;
-import com.masai.dao.EmployeeDao;
-import com.masai.dao.EmployeeDaoImpl;
-import com.masai.exception.EmployeeException;
+import com.RD.bean.Employee;
+import com.RD.dao.EmployeeDao;
+import com.RD.dao.EmployeeDaoImpl;
+import com.RD.exception.EmployeeException;
 
 public class EmpViewProfile {
 	

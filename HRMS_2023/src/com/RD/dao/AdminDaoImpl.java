@@ -1,4 +1,4 @@
-package com.masai.dao;
+package com.RD.dao;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -6,16 +6,16 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import com.masai.bean.Admin;
-import com.masai.bean.Department;
-import com.masai.bean.Employee;
-import com.masai.bean.Leave;
-import com.masai.checkdetails.Check;
-import com.masai.exception.AdminException;
-import com.masai.exception.DepartmentException;
-import com.masai.exception.EmployeeException;
-import com.masai.exception.LeaveException;
-import com.masai.utility.GetConnection;
+import com.RD.bean.Admin;
+import com.RD.bean.Department;
+import com.RD.bean.Employee;
+import com.RD.bean.Leave;
+import com.RD.checkdetails.Check;
+import com.RD.exception.AdminException;
+import com.RD.exception.DepartmentException;
+import com.RD.exception.EmployeeException;
+import com.RD.exception.LeaveException;
+import com.RD.utility.GetConnection;
 
 
 public class AdminDaoImpl implements AdminDao{

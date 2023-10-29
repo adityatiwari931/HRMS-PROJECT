@@ -1,4 +1,4 @@
-package com.masai.utility;
+package com.RD.utility;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -19,7 +19,7 @@ public class GetConnection {
 		String url = "jdbc:mysql://localhost:3306/hrms";
 		
 		try {
-			conn = DriverManager.getConnection(url, "root", "updesh");
+			conn = DriverManager.getConnection(url, "root", "ak47tiwari#@");
 		} catch (SQLException e) {
 			System.out.println("not connected!");
 		}

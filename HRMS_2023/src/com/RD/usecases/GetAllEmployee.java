@@ -1,11 +1,11 @@
-package com.masai.usecases;
+package com.RD.usecases;
 
 import java.util.List;
 
-import com.masai.bean.Employee;
-import com.masai.dao.AdminDao;
-import com.masai.dao.AdminDaoImpl;
-import com.masai.exception.EmployeeException;
+import com.RD.bean.Employee;
+import com.RD.dao.AdminDao;
+import com.RD.dao.AdminDaoImpl;
+import com.RD.exception.EmployeeException;
 
 public class GetAllEmployee {
 

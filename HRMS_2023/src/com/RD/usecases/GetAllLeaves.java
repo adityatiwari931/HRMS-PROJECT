@@ -1,11 +1,11 @@
-package com.masai.usecases;
+package com.RD.usecases;
 
 import java.util.List;
 
-import com.masai.bean.Leave;
-import com.masai.dao.AdminDao;
-import com.masai.dao.AdminDaoImpl;
-import com.masai.exception.LeaveException;
+import com.RD.bean.Leave;
+import com.RD.dao.AdminDao;
+import com.RD.dao.AdminDaoImpl;
+import com.RD.exception.LeaveException;
 
 public class GetAllLeaves {
 

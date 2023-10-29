@@ -1,13 +1,13 @@
-package com.masai.dao;
+package com.RD.dao;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Scanner;
-import com.masai.bean.Employee;
-import com.masai.checkdetails.Check;
-import com.masai.exception.EmployeeException;
-import com.masai.utility.GetConnection;
+import com.RD.bean.Employee;
+import com.RD.checkdetails.Check;
+import com.RD.exception.EmployeeException;
+import com.RD.utility.GetConnection;
 
 
 public class EmployeeDaoImpl implements EmployeeDao{

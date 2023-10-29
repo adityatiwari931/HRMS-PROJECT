@@ -1,7 +1,7 @@
-package com.masai.usecases;
+package com.RD.usecases;
 
-import com.masai.dao.EmployeeDao;
-import com.masai.dao.EmployeeDaoImpl;
+import com.RD.dao.EmployeeDao;
+import com.RD.dao.EmployeeDaoImpl;
 
 public class ResponseFromAdmin {
 

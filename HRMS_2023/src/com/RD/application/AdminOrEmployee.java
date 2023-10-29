@@ -1,14 +1,15 @@
-package com.masai.application;
+package com.RD.application;
 import java.util.Scanner;
-import com.masai.bean.Admin;
-import com.masai.bean.Employee;
-import com.masai.checkdetails.Check;
-import com.masai.dao.AdminDao;
-import com.masai.dao.AdminDaoImpl;
-import com.masai.dao.EmployeeDao;
-import com.masai.dao.EmployeeDaoImpl;
-import com.masai.exception.AdminException;
-import com.masai.exception.EmployeeException;
+import com.RD.bean.Admin;
+
+import com.RD.bean.Employee;
+import com.RD.checkdetails.Check;
+import com.RD.dao.AdminDao;
+import com.RD.dao.AdminDaoImpl;
+import com.RD.dao.EmployeeDao;
+import com.RD.dao.EmployeeDaoImpl;
+import com.RD.exception.AdminException;
+import com.RD.exception.EmployeeException;
 
 public class AdminOrEmployee {
 
@@ -28,22 +29,15 @@ public class AdminOrEmployee {
 				
 				String email = Check.checkemail();
 				String pass = Check.checkPass();
-				
-				try {
-					
-					AdminDao adi = new AdminDaoImpl();
-					Admin admin = adi.loginForAdmin(pass, email);
-					
-					System.out.println(" Welcome  --> "+admin.getName());
-					System.out.println("================================");
-					AdminOperations ao = new AdminOperations(pass,email);
-					ao.adminOper();
-					
-				} catch (AdminException e) {
-					System.out.println(e.getMessage());
-					System.out.println("=================================");
-					choice();
-				}
+
+				AdminDao adi = new AdminDaoImpl();
+				Admin admin = adi.loginForAdmin(pass, email);
+
+				System.out.println(" Welcome  --> "+admin.getName());
+				System.out.println("================================");
+				AdminOperations ao = new AdminOperations(pass,email);
+				ao.adminOper();
+
 				break;
 			}	
 				
@@ -57,8 +51,7 @@ public class AdminOrEmployee {
 					
 					EmployeeDao ed = new EmployeeDaoImpl();
 					Employee employee = ed.loginForEmployee(pass, email);
-					
-					
+
 					System.out.println("Welcome --> "+employee.getEmpName() +"   Id is -->  "+employee.getEmpId());
 					System.out.println("========================================================================");
 					EmployeeOperations eo = new EmployeeOperations(employee.getEmpId());

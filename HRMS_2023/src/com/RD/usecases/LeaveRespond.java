@@ -1,7 +1,7 @@
-package com.masai.usecases;
+package com.RD.usecases;
 
-import com.masai.dao.AdminDao;
-import com.masai.dao.AdminDaoImpl;
+import com.RD.dao.AdminDao;
+import com.RD.dao.AdminDaoImpl;
 
 public class LeaveRespond {
 	

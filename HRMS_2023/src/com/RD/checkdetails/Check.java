@@ -1,4 +1,4 @@
-package com.masai.checkdetails;
+package com.RD.checkdetails;
 import java.util.Scanner;
 
 

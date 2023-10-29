@@ -1,11 +1,11 @@
-package com.masai.usecases;
+package com.RD.usecases;
 
 import java.util.List;
 
-import com.masai.bean.Department;
-import com.masai.dao.AdminDao;
-import com.masai.dao.AdminDaoImpl;
-import com.masai.exception.DepartmentException;
+import com.RD.bean.Department;
+import com.RD.dao.AdminDao;
+import com.RD.dao.AdminDaoImpl;
+import com.RD.exception.DepartmentException;
 
 public class GetAllDepartments {
 

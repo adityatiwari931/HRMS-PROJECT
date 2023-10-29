@@ -1,7 +1,7 @@
-package com.masai.dao;
+package com.RD.dao;
 
-import com.masai.bean.Employee;
-import com.masai.exception.EmployeeException;
+import com.RD.bean.Employee;
+import com.RD.exception.EmployeeException;
 
 public interface EmployeeDao {
 
